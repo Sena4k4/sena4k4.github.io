@@ -30,7 +30,7 @@
 
 	main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ margin:0 10%}
 
-	section.wips-content figure .post-date{ padding-top:20px; height:100px; width:100px}
+	section.WIPs-content figure .post-date{ padding-top:20px; height:100px; width:100px}
 
 	article.contact-header[role="pge-title-content"] p a{padding-right:10px}
 
@@ -40,7 +40,7 @@
 
 	.grid-lod li img{ width:100%}
 
-	.work-details,.wips-details{ padding:0; margin-top:0}
+	.work-details,.WIPs-details{ padding:0; margin-top:0}
 
 	.comments-reply li section{ width:88%}
 
@@ -78,11 +78,11 @@
 
 	main[role="main-inner-wrapper"] .thumbnails-pan section figure{ margin-bottom:20px}
 
-	article[role="pge-title-content"].wips-header,article[role="pge-title-content"].contact-header{ padding-bottom:30px}
+	article[role="pge-title-content"].WIPs-header,article[role="pge-title-content"].contact-header{ padding-bottom:30px}
 
-	section.wips-content figure .post-date{ padding-top:20px; height:100px; width:100px}
+	section.WIPs-content figure .post-date{ padding-top:20px; height:100px; width:100px}
 
-	section.wips-content article{ padding:2% 5%; font-size:18px; line-height:24px;font-family: 'proxima_nova_cn_rgregular';}
+	section.WIPs-content article{ padding:2% 5%; font-size:18px; line-height:24px;font-family: 'proxima_nova_cn_rgregular';}
 
 	article.contact-header[role="pge-title-content"] p a{ font-size:18px; padding-right:10px}
 
@@ -92,7 +92,7 @@
 
 	.contat-from-wrapper textarea{ margin-top:0}
 
-	.work-details,.wips-details{ padding:0; margin-top:0}
+	.work-details,.WIPs-details{ padding:0; margin-top:0}
 
 	.work-images{ margin-top:0}
 
@@ -108,9 +108,9 @@
 
 	.bog-header{ padding-bottom:20px}
 
-	.wips-details .enter-content{ margin-top:10px}
+	.WIPs-details .enter-content{ margin-top:10px}
 
-	.wips-details .enter-content p,.comments-reply li section{ font-size:14px; line-height:26px}
+	.WIPs-details .enter-content p,.comments-reply li section{ font-size:14px; line-height:26px}
 
 	.comments-pan h3{ padding-bottom:20px; margin-top:0}
 
