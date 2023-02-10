@@ -262,7 +262,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan{ padding-top:30px}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure{ background-color:#FFF; position:relative; overflow:hidden; cursor:pointer}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-inner-wrapper"] .thumbnails-pan section figure, img,main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,section.wips-content figure,section.wips-content figure img,section.wips-content  article{transition-delay: 0s;transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-inner-wrapper"] .thumbnails-pan section figure, img,main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,section.WIPs-content figure,section.WIPs-content figure img,section.WIPs-content  article{transition-delay: 0s;transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ position:absolute; bottom:-50%; left:0; right:0; background-color:#9263b1; margin:0 69px; text-align:center; color:#FFF; padding-top:16px; padding-bottom:27px}
 
@@ -270,27 +270,27 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{ fo
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{ text-transform:uppercase; font-size:13px; line-height:14px; font-weight:bold}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.wips-content:hover article{ background-color:#9263b1; color:#FFF}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.WIPs-content:hover article{ background-color:#9263b1; color:#FFF}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,section.wips-content:hover figure img{-webkit-transform: scale3d(1.08,1.08,2);transform: scale3d(1.08,1.08,2); opacity:0.5}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,section.WIPs-content:hover figure img{-webkit-transform: scale3d(1.08,1.08,2);transform: scale3d(1.08,1.08,2); opacity:0.5}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover figcaption{ bottom:0;}
 
 /*===== WIPs ===*/
 
-article[role="pge-title-content"].wips-header{ padding-bottom:218px}
+article[role="pge-title-content"].WIPs-header{ padding-bottom:218px}
 
-section.wips-content{ margin-bottom:29px}
+section.WIPs-content{ margin-bottom:29px}
 
-section.wips-content figure{ overflow:hidden; position:relative;background-color: rgba(255,255,255,0.4); cursor:pointer}
+section.WIPs-content figure{ overflow:hidden; position:relative;background-color: rgba(255,255,255,0.4); cursor:pointer}
 
-section.wips-content figure .post-date{ text-align:center; color:#FFF; font-weight:800; font-size:14px; line-height:18px; text-transform:uppercase; display:block; background-color:#9263b1; width:130px; height:130px; position:absolute; left:0; top:0; padding-top:41px; z-index:50}
+section.WIPs-content figure .post-date{ text-align:center; color:#FFF; font-weight:800; font-size:14px; line-height:18px; text-transform:uppercase; display:block; background-color:#9263b1; width:130px; height:130px; position:absolute; left:0; top:0; padding-top:41px; z-index:50}
 
-section.wips-content figure .post-date span{ font-size:50px; line-height:35px; display:block}
+section.WIPs-content figure .post-date span{ font-size:50px; line-height:35px; display:block}
 
-section.wips-content  article{ font-size:21px; line-height:30px; color:#FFF;  font-weight:800; color:#343434; padding-left:42px; padding-top:33px; padding-bottom:31px;}
+section.WIPs-content  article{ font-size:21px; line-height:30px; color:#FFF;  font-weight:800; color:#343434; padding-left:42px; padding-top:33px; padding-bottom:31px;}
 
-section.wips-content:hover figure img{ opacity:0.5}
+section.WIPs-content:hover figure img{ opacity:0.5}
 
 /*===== Contact ===*/
 
@@ -330,7 +330,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#9263b1; text-d
 
 /*== Work Details ==*/
 
-.work-details,.wips-details{ padding:0 69px; margin-top:73px}
+.work-details,.WIPs-details{ padding:0 69px; margin-top:73px}
 
 .work-details header h2{ color:#343434; font-size:36px; font-weight:800}
 
@@ -360,9 +360,9 @@ article[role="pge-title-content"].contact-header p a:hover{color:#9263b1; text-d
 
 .bog-header h2{ font-size:36px; font-weight:normal}
 
-.wips-details .enter-content{ margin-top:62px}
+.WIPs-details .enter-content{ margin-top:62px}
 
-.wips-details .enter-content p{ font-size:16px; line-height:30px; font-weight:300; margin-bottom:23px}
+.WIPs-details .enter-content p{ font-size:16px; line-height:30px; font-weight:300; margin-bottom:23px}
 
 .comments-pan{border-top:2px solid #dedede; padding-top:15px}
 
