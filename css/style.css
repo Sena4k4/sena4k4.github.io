@@ -242,7 +242,7 @@ footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
 
 footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:uppercase; font-size:15px; margin:0 13px}
 
-footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
+footer[role="footer"] nav > ul > li > a{ color:#512375}
 
 footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#9263b1}
 
@@ -314,7 +314,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#9263b1; text-d
 
 .contat-from-wrapper{ padding:0 69px; margin-top:108px}
 
-.contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid #bbbbbb; background-color:inherit; color:#404040; font-size:21px; line-height:23px; padding-bottom:24px}
+.contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid ##512375; background-color:inherit; color:#404040; font-size:21px; line-height:23px; padding-bottom:24px}
 
 .contat-from-wrapper input[type="text"]:focus,.contat-from-wrapper input[type="email"]:focus,.contat-from-wrapper textarea:focus{ border-bottom-color:#9f9e9e}
 
@@ -326,7 +326,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#9263b1; text-d
 
 .contat-from-wrapper form input:-moz-placeholder { color:#404040; }
 
-.contat-from-wrapper textarea{ border-bottom:1px solid #bbbbbb; border-left:none; border-right:none; border-top:none; height:77px; margin-top:56px}
+.contat-from-wrapper textarea{ border-bottom:1px solid ##512375; border-left:none; border-right:none; border-top:none; height:77px; margin-top:56px}
 
 .contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800; letter-spacing:2px; background-color:#a97fbd; margin:41px auto; margin-bottom:0}
 
@@ -394,7 +394,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#9263b1; text-d
 
 .commentys-form form{ margin-top:30px}
 
-.commentys-form input[type="text"],.commentys-form input[type="email"],.commentys-form input[type="url"],.commentys-form textarea{ font-size:21px; line-height:22px; color:#404040; padding-bottom:26px; border-bottom:2px solid #bbbbbb; width:100%; display:block; border-left:none; border-right:none; border-top:none; background-color:transparent; outline:none}
+.commentys-form input[type="text"],.commentys-form input[type="email"],.commentys-form input[type="url"],.commentys-form textarea{ font-size:21px; line-height:22px; color:#404040; padding-bottom:26px; border-bottom:2px solid ##512375; width:100%; display:block; border-left:none; border-right:none; border-top:none; background-color:transparent; outline:none}
 
 .commentys-form textarea{ margin-top:57px}
 
