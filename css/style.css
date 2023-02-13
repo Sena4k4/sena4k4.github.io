@@ -40,8 +40,10 @@ html {
 
 	-webkit-text-size-adjust: 100%;
 
-	background-color: #bfa6d0;
+}
 
+body {
+	background-color: #bfa6d0;
 }
 
 *, *:before, *:after {
