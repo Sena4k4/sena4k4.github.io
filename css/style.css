@@ -1012,3 +1012,37 @@ article[role="pge-title-content"].contact-header p a:hover {
 .commentys-form input[type="button"]:hover {
 	background-color: #9263b1
 }
+
+/* TOP NAVBAR McMelon */
+
+.top-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.top-nav-link {
+	float: left;
+}
+
+.top-nav-link a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.top-nav-link.active a {
+	color: #9263b1;
+}
+
+.top-nav-link a:hover {
+	color: #512375;
+	text-decoration: none;
+}
+
+.dblock {
+	display: block;
+}
