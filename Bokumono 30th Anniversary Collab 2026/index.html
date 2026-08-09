@@ -20,39 +20,45 @@
     <link href="/css/effects/component.css" rel="stylesheet" />
 
     <style>
-    
-    .Bokumono-30th-Anniversary-Collab-2026-header {
-        text-align: center;
-    }
+    /* existing styles... */
 
-    
-    .post-details figure img {
-        display: block;
-        margin: 0 auto;
-    }
-
-   
-    p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #333;
-    }
-
-   
+    /* Comment section heading color */
     .comments-pan h3,
     .commentys-form h4 {
         color: #9263b1;
         font-weight: 600;
     }
 
-   
+    /* Reduce form height and spacing */
+    .commentys-form .row {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .commentys-form input[type="text"],
+    .commentys-form input[type="email"],
+    .commentys-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 12px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+    }
+
+    /* Raise the button upward */
+    .commentys-form .text-center {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* Sleek Post Comment button */
     .commentys-form input[type="submit"] {
         background-color: #9263b1;
         color: #fff;
-        border: none;
-        padding: 12px 28px;
-        border-radius: 6px;
+        border: 2px solid #512375;
+        padding: 10px 26px;
+        border-radius: 8px;
         font-size: 16px;
         font-weight: 600;
         cursor: pointer;
@@ -68,6 +74,7 @@
         transform: translateY(0);
     }
 </style>
+
 
 </head>
   
