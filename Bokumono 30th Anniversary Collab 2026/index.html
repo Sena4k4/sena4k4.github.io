@@ -20,25 +20,55 @@
     <link href="/css/effects/component.css" rel="stylesheet" />
 
     <style>
-        /* Center title header */
-        .Bokumono-30th-Anniversary-Collab-2026-header {
-            text-align: center;
-        }
+    /* Center title header */
+    .Bokumono-30th-Anniversary-Collab-2026-header {
+        text-align: center;
+    }
 
-        /* Center image */
-        .post-details figure img {
-            display: block;
-            margin: 0 auto;
-        }
+    /* Center image */
+    .post-details figure img {
+        display: block;
+        margin: 0 auto;
+    }
 
-        /* Match paragraph font to other pages */
-        p {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: #333;
-        }
-    </style>
+    /* Match paragraph font to other pages */
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    /* Comment section heading color */
+    .comments-pan h3,
+    .commentys-form h4 {
+        color: #9263b1;
+        font-weight: 600;
+    }
+
+    /* Sleek Post Comment button */
+    .commentys-form input[type="submit"] {
+        background-color: #9263b1;
+        color: #fff;
+        border: none;
+        padding: 12px 28px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.25s ease;
+    }
+
+    .commentys-form input[type="submit"]:hover {
+        background-color: #7a4f92;
+        transform: translateY(-2px);
+    }
+
+    .commentys-form input[type="submit"]:active {
+        transform: translateY(0);
+    }
+</style>
+
 </head>
   
 <body>
@@ -91,7 +121,6 @@
 <div class="comments-pan">
     <h3>Comments</h3>
 
-    <!-- Existing comments will appear here -->
     <ul class="comments-reply">
         <!-- No preset comments -->
     </ul>
@@ -121,6 +150,7 @@
         </div>
     </div>
 </div>
+
 
     <footer role="footer">
         <nav role="footer-nav">
