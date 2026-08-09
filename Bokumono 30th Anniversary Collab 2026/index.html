@@ -72,6 +72,87 @@
 
     .commentys-form input[type="submit"]:active {
         transform: translateY(0);
+
+        /* Center title header */
+.Bokumono-30th-Anniversary-Collab-2026-header {
+    text-align: center;
+}
+
+/* Center image */
+.post-details figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Match paragraph font to other pages */
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Purple headings */
+.comments-pan h3,
+.commentys-form h4 {
+    color: #9263b1;
+    font-weight: 600;
+}
+
+/* Make input labels purple */
+.commentys-form input::placeholder,
+.commentys-form textarea::placeholder {
+    color: #9263b1;
+    opacity: 1; /* ensures full color */
+}
+
+/* Reduce form width and height */
+.commentys-form .row {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Input styling */
+.commentys-form input[type="text"],
+.commentys-form input[type="email"],
+.commentys-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* Raise the button upward */
+.commentys-form .text-center {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/* Sleek Post Comment button */
+.commentys-form input[type="submit"] {
+    background-color: #9263b1;
+    color: #fff;
+    border: 2px solid #512375;   /* requested border */
+    padding: 10px 26px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+/* Hover effect */
+.commentys-form input[type="submit"]:hover {
+    background-color: #7a4f92;
+    transform: translateY(-2px);
+}
+
+/* Active click */
+.commentys-form input[type="submit"]:active {
+    transform: translateY(0);
+}
     }
 </style>
 
