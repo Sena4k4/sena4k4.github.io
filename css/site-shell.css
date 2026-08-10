@@ -1,5 +1,4 @@
 :root {
-    --site-bg: #f7f3fa;
     --site-surface: #ffffff;
     --site-text: #332a39;
     --site-muted: #6b5c72;
@@ -14,7 +13,6 @@ html {
 }
 
 body {
-    background: var(--site-bg);
     color: var(--site-text);
     font-family: 'Open Sans', Arial, sans-serif;
 }
