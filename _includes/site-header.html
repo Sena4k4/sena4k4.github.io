@@ -1,0 +1,15 @@
+<header role="header">
+    <div class="container">
+        <h1>
+            {% unless include.hide_logo %}<img src="/images/logo.png" title="sena.ink" alt="sena.ink" />{% endunless %}
+            <ul class="top-nav">
+                <li class="top-nav-link{% if include.active == 'work' %} active{% endif %}"><a href="/" title="Work"{% if include.active == 'work' %} aria-current="page"{% endif %}>Work</a></li>
+                <li class="top-nav-link{% if include.active == 'commercial' %} active{% endif %}"><a href="/commercialWork/" title="Commercial Work"{% if include.active == 'commercial' %} aria-current="page"{% endif %}>Commercial Work</a></li>
+                <li class="top-nav-link{% if include.active == 'references' %} active{% endif %}"><a href="/referenceSheets/" title="Reference Sheets"{% if include.active == 'references' %} aria-current="page"{% endif %}>Reference Sheets</a></li>
+                <li class="top-nav-link{% if include.active == 'commissions' %} active{% endif %}"><a href="/commissioninfo/" title="Commission Info"{% if include.active == 'commissions' %} aria-current="page"{% endif %}>Commission Info</a></li>
+                <li class="top-nav-link{% if include.active == 'bokumono' %} active{% endif %}"><a href="/bokumonoanniversarycollab/" title="Bokumono 30th Anniversary Collab 2026"{% if include.active == 'bokumono' %} aria-current="page"{% endif %}>Bokumono 30th Anniversary Collab 2026</a></li>
+                <li class="top-nav-link{% if include.active == 'contact' %} active{% endif %}"><a href="/contact/" title="Contact"{% if include.active == 'contact' %} aria-current="page"{% endif %}>Contact</a></li>
+            </ul>
+        </h1>
+    </div>
+</header>
