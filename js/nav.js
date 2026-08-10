@@ -124,13 +124,25 @@ $(document).ready(function () {
 
 
 
-	new AnimOnScroll(document.getElementById('grid'), {
+	['grid', 'grid-left', 'grid-right'].forEach(function (id) {
 
-		minDuration: 0.4,
+		var grid = document.getElementById(id);
 
-		maxDuration: 0.7,
+		if (!grid) {
 
-		viewportFactor: 0.2
+			return;
+
+		}
+
+		new AnimOnScroll(grid, {
+
+			minDuration: 0.4,
+
+			maxDuration: 0.7,
+
+			viewportFactor: 0.2
+
+		});
 
 	});
 
