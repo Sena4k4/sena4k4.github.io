@@ -100,6 +100,37 @@ p {
 .commentys-form input[type="submit"]:active {
     transform: translateY(0);
 }
+
+
+.top-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.top-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.top-nav li a {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.top-nav li a:hover {
+    color: #9263b1;
+}
+
+.top-nav li.active a {
+    color: #9263b1;
+    font-weight: 700;
+}
+
 </style>
 
 
@@ -109,11 +140,13 @@ p {
 <body>
     <header role="header">
     <div class="container">
-        <h1>
-            <img src="/images/logo.png" title="sena.ink" alt="ssena.ink" />
-        </h1>
+       <h1>
+    <img src="/images/logo.png" />
+</h1>
 
-        <ul class="top-nav">
+<ul class="top-nav">
+    ...
+</ul>
             <li class="top-nav-link"><a href="/" title="Work">Work</a></li>
             <li class="top-nav-link"><a href="/commercialwork/" title="Commercial Work">Commercial Work</a></li>
             <li class="top-nav-link"><a href="/referenceSheets/" title="Reference Sheets">Reference Sheets</a></li>
